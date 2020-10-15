@@ -37,31 +37,31 @@ for (var i = 0; i < numberOfButtons; i++) {
         tom4.play();
         break;
 
-      // case "5":
-      //   var snare = new Audio('sounds/snare.mp3');
-      //   snare.play();
-      //   break;
-      //
-      // case "6":
-      //   var crash = new Audio('sounds/crash.mp3');
-      //   crash.play();
-      //   break;
-      //
-      // case "7":
-      //   var kick = new Audio('sounds/kick-bass.mp3');
-      //   kick.play();
-      //   break;
-      //
-      //   case "8":
-      //     var kick = new Audio('sounds/kick-bass.mp3');
-      //     kick.play();
-      //     break;
-      //
-      //     case "9":
-      //       var kick = new Audio('sounds/kick-bass.mp3');
-      //       kick.play();
-      //       break;
+      case "5":
+        var snare = new Audio('sounds/bsp.mp3');
+        snare.play();
+        break;
 
-      default: console.log(buttonInnerHTML);
+      case "6":
+        var crash = new Audio('sounds/bye.mp3');
+        crash.play();
+        break;
+
+      case "7":
+        var kick = new Audio('sounds/k8s.mp3');
+        kick.play();
+        break;
+
+        case "8":
+          var kick = new Audio('sounds/node.mp3');
+          kick.play();
+          break;
+
+          case "9":
+            var kick = new Audio('sounds/pipelines.mp3');
+            kick.play();
+            break;
+
+      // default: console.log(buttonInnerHTML);
   }
 }
